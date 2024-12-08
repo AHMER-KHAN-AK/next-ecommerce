@@ -15,8 +15,8 @@ const PaginatedProduct = () => {
     <div>
       <h2>{}</h2>
       <div className="">
-        {products.slice(0, 4).map((product) => (
-          <ProductCard product={product} key={product.id} />
+        {products.slice(0, 4).map((product,index) => (
+          <ProductCard product={product} key={index} />
         ))}
       </div>
       <button></button>
