@@ -9,7 +9,11 @@ export default {
   ],
   theme: {
   	extend: {
-  		colors: {
+		
+		
+			
+  		colors: {	mygray:"#faf4f4",
+			myskincolor:"#fbebb5",
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -60,3 +64,6 @@ export default {
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+
+
+
