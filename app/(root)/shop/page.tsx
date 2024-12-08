@@ -20,7 +20,7 @@ const Shop = () => {
           <div className="flex justify-center flex-wrap gap-10">
             {products.slice(0, 8).map((product, index) => (
               <ProductCard
-                key={product.id + "unique" + index}
+                key={"unique" + index}
                 product={product}
               />
             ))}
