@@ -8,7 +8,7 @@ const page = () => {
   return (
     <div>
       <PageHeader heading="My Account" />
-      <div className="flex justify-center gap-24 mx-auto px-10 py-8">
+      <div className="flex justify-center gap-24 mx-auto  text-xl  px-15 py-10">
         <LoginForm />
         <SignUpForm />
       </div>

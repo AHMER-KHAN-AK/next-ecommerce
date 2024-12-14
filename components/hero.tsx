@@ -38,7 +38,7 @@ const Hero = () => {
         <Image
         src="/assets/sofa2.png"
         alt="hero"
-        width={1800}
+        width={1750}
         height={1400}
         className="object-cover object-center rounded"
       />

@@ -13,6 +13,7 @@ export default {
 		
 			
   		colors: {	mygray:"#faf4f4",
+			
 			myskincolor:"#fbebb5",
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

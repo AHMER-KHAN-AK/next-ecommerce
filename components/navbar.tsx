@@ -1,8 +1,9 @@
 import React from 'react'
-// import { IoSearchOutline } from "react-icons/io5";
-// import { CiHeart } from "react-icons/ci";
-// import { FaRegUser } from "react-icons/fa";
-// import { IoCartOutline } from "react-icons/io5";
+import { FaRegUser } from "react-icons/fa6";
+import { IoIosSearch } from "react-icons/io";
+import { IoIosHeartEmpty } from "react-icons/io";
+import { IoCartOutline } from "react-icons/io5";
+
 import Link from 'next/link';
 
 
@@ -22,15 +23,12 @@ const Navbar = () => {
 </div>
       <div className=' w-[30%] flex justify-center items-center '>
         <div className='w-[50%]  h-[28px]  '>
-        <ul className='flex justify-between text-4xl '>
-          {/* <li><FaRegUser/></li>
-          <li><IoSearchOutline/></li>
-          <li><CiHeart/></li>
-          <li><IoCartOutline /></li> */}
-          <li>user</li>
-          <li>search</li>
-          <li>heart</li>
-          <li>cart</li>
+        <ul className='flex justify-between text-4xl gap-10 '>
+         <Link href={'/account'}> <li> <FaRegUser /></li></Link>
+          <li><IoIosSearch /></li>
+          <li><IoIosHeartEmpty /></li>
+          <li><IoCartOutline /></li>
+          
         </ul>
         </div>
 
